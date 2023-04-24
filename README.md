@@ -1,54 +1,19 @@
-# SpaceLink Overview
+# SVG-maker Overview
 
-Our website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and
-comprehensive information about all things SpaceX. Our website delivers everything you need to know about SpaceX
-launches, all in one place. Whether you're a space enthusiast or just curious about SpaceX's latest launches,
-our mission is to keep you informed and engaged with the latest happenings in the space industry. Join us on our
-journey to explore the unknown reaches of space with SpaceX.
+SVG (Scalable Vector Graphics) is a popular file format for creating and displaying vector graphics. SVG images are widely used on the web and in many different applications. An SVG maker is a tool that allows users to create, edit and export SVG images.
 
 ## How It Works
 
-Our website serves as the ultimate SpaceX launch dashboard, providing you with the most up-to-date and
-comprehensive information about all things SpaceX. Our website delivers everything you need to know about SpaceX
-launches, all in one place. Whether you're a space enthusiast or just curious about SpaceX's latest launches,
-our mission is to keep you informed and engaged with the latest happenings in the space industry. Join us on our
-journey to explore the unknown reaches of space with SpaceX.
+For the SVG-Maker to work you need to run node index.js in you intergrated terminal 
 
 ## Authors
 
-- [@DonglanChen] (https://github.com/Chenson92)
-- [@MaxKeable] (https://github.com/MaxKeable)
-- [@ShibyMathew] (https://github.com/Shiby-Mathew)
 - [@connorMcNaught] (https://github.com/con118)
-
-## Features of The Web App
-
-- A globe that you can scroll around and find launch locations
-- Using local storage to save your last launch
-- A beautifully designed Web App that is easy to understand
-- Get updated on the latest an future launches
-- Get a countdown timer till the next launch
-
-## Color Reference
-
-| CSS Color Code               | Example Color | Preview                                                  |
-| ---------------------------- | ------------- | -------------------------------------------------------- |
-| `color: #fff;`               | `#fff`        | ![#fff](https://via.placeholder.com/10/ffffff?text=+)    |
-| `color: #E9E8E8;`            | `#E9E8E8`     | ![#E9E8E8](https://via.placeholder.com/10/E9E8E8?text=+) |
-| `color: #DC5F00;`            | `#DC5F00`     | ![#DC5F00](https://via.placeholder.com/10/DC5F00?text=+) |
-| `color: #EEEEEE;`            | `#EEEEEE`     | ![#EEEEEE](https://via.placeholder.com/10/EEEEEE?text=+) |
-| `background-color: #20262E;` | `#20262E`     | ![#20262E](https://via.placeholder.com/10/20262E?text=+) |
 
 ## Demo
 
-- [Link To The Repository](https://github.com/MaxKeable/SpaceLink)
-- [Link To The Demo Site](https://maxkeable.github.io/SpaceLink/)
-
-## Documentation
-
-[Powerpoint-doc](https://addlinkher.com)
-
-[Google-Doc](https://docs.google.com/document/d/1HqK1E2jR9fd4uKlJZn3hGP68nIQuFSlsn2WURuq9L0U/edit?usp=sharing)
+- [Link To The Repository](https://github.com/con118/SVg-maker)
+- [Link To video](https://drive.google.com/file/d/13KvS-Sv2gR8IjpQA5T96zt8283_eggHG/view?usp=sharing)
 
 ## Screenshots
 
@@ -56,86 +21,43 @@ journey to explore the unknown reaches of space with SpaceX.
 
 # Marking criteria
 
-## Technical Acceptance Criteria: 25%
+## Deliverables: 15%
+At least one sample SVG file generated using the application must be submitted.
 
-- Satisfies the following code requirements:
-  - Application uses at least two server-side API's.
-  - Application uses client-side storage to store persistant data.
-  - Application doesn't use JS alerts, prompts, or confirms (uses modals instead).
-  - Application uses a CSS framework other than Bootstrap.
-  - Application is interactive (accepts and responds to user input).
+Your GitHub repository containing your application code.
 
-## Concept: 10%
+## Walkthrough Video: 32%
+A walkthrough video that demonstrates the functionality of the SVG logo maker and passing tests must be submitted.
 
-- Application should be a unique and novel idea.
-- Your group should clearly and concisely articulate your project idea.
+The README.md file must include a link to the walkthrough video.
 
-## Deployment: 20%
+The walkthrough video must show all tests passing from the command line.
 
-- Application deployed at live URL and loads with no errors.
-- Application GitHub URL submitted.
-- Portfolio at live URL submitted, featuring project.
+The walkthrough video must demonstrate how a user would invoke the application from the command line.
 
-## Repository Quality: 10%
+The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
 
-- Repository has a unique name.
-- Repository follows best practices for file structure and naming conventions.
-- Repository follows best practices for class/id-naming conventions, indentation, quality comments, etc.
-- Repository contains multiple descriptive commit messages.
-- Repository contains a quality README file with description, screenshot, and link to deployed application.
+The walkthrough video must demonstrate a generated SVG file, showing the file being opened in the browser. The image in the browser must reflect the choices made by the user (text, shape, and colors).
 
-## Application Quality: 15%
+## Technical Acceptance Criteria: 40%
+Satisfies all of the preceding acceptance criteria plus the following:
 
-- Application user experience is intuitive and easy to navigate.
-- Application user interface style is clean and polished.
-- Application is responsive.
+Uses the Inquirer packageLinks to an external site..
 
-## Presentation: 10%
+Uses the Jest packageLinks to an external site. for a suite of unit tests.
 
-- Your group should present using Powerpoint or a similar presentation software.
-- Every group member should speak during the presentation.
-- Your presentation should follow the Project Presentation Template.
+The application must have Triangle, Square, and Circle classes.
 
-## Collaboration: 10%
+## Repository Quality: 13%
+Repository has a unique name.
 
-- There are no major disparities in the number of GitHub contributions between group members.
+Repository follows best practices for file structure and naming conventions.
 
-## Acknowledgements/ Reference
+Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Globe.gl Documentation](https://globe.gl/)
-- [Bulma Documentation](https://bulma.io/documentation/)
-- [Markdown License Badge](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+Repository contains multiple descriptive commit messages.
 
-## FAQ
-
-#### Why did we choose to base our project around rockets
-
-Rockets are an integral part of space exploration, and some people may be passionate about exploring the cosmos and **SpaceLink** enables that.
-
-#### Why did we choose to use the Bulma CSS Frame Work
-
-Bulma is a mobile-first CSS framework, offering optimum site responsiveness. Build a site one time and watch it work across any device. Compatible with the majority of current browsers.
-
-#### Why did we choose to add the globe.gl
-
-The globe.gl library was added to the project to provide an interactive and visually engaging way to display information about SpaceX launches. It allows users to see where the launches are taking place and get a better sense of the global impact of space exploration.
-
-#### What were the Api's that we used
-
-- NASA's photo of the day
-- Globe.gl
-- SpaceX API
-
-#### How is the project interactive
-
-The project is interactive in that it accepts and responds to user input. Users can browse through information about SpaceX launches, filter launches by various criteria, and view launch details. The website also uses modals instead of JS alerts, prompts, or confirms, which provides a smoother and more visually appealing user experience.
-
-#### What is the concept of the project
-
-The concept of the project is to provide a comprehensive and up-to-date resource for information about SpaceX launches. It aims to be a one-stop-shop for anyone interested in following SpaceX's latest launches, providing a range of features and interactive tools to help users stay informed and engaged with the space industry.
+Repository contains a high-quality readme with description and a link to a walkthrough video.
 
 ## Badges & License
 
