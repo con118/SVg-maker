@@ -15,10 +15,6 @@ For the SVG-Maker to work you need to run node index.js in you intergrated termi
 - [Link To The Repository](https://github.com/con118/SVg-maker)
 - [Link To video](https://drive.google.com/file/d/13KvS-Sv2gR8IjpQA5T96zt8283_eggHG/view?usp=sharing)
 
-## Screenshots
-
-![ScreenShot of the Project](https://i.ibb.co/yypn7Bt/Screen-Shot-2023-03-30-at-9-38-38-am.png)
-
 # Marking criteria
 
 ## Deliverables: 15%
